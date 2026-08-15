@@ -1,5 +1,5 @@
 
-![alt text](assets/portfolio.png)
+![alt text](assets/images/portfolio.png)
 
 
 Portfólio | Thiago Aguiar
