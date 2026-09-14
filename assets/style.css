@@ -400,16 +400,6 @@ a {
     background 0.3s ease;
 }
 
-.btn-primary,
-.btn-secondary,
-.btn-tertiary {
-  background: transparent;
-
-  border-color: #263447;
-
-  color: #cbd5e1;
-}
-
 .btn:hover,
 .btn:focus-visible {
   transform: translateY(-2px);
@@ -1755,7 +1745,6 @@ footer p {
   }
 
 
-  /* CONTATO */
 
   .contact {
     padding-top: 40px;
@@ -1775,7 +1764,6 @@ footer p {
   }
 
 
-  /* FOOTER */
 
   footer {
     padding: 25px 20px;
@@ -1783,9 +1771,7 @@ footer p {
 }
 
 
-/* =========================================================
-   CELULARES PEQUENOS
-========================================================= */
+/* midia celulares*/
 
 @media (max-width: 400px) {
 
@@ -1817,7 +1803,7 @@ footer p {
   }
 
 
-  /* SOBRE */
+  /* Sobre */
 
   .section-title {
     gap: 35px;
@@ -1844,7 +1830,7 @@ footer p {
   }
 
 
-  /* PROJETOS */
+  /* Projetos */
 
   .projects-carousel {
     gap: 5px;
@@ -1864,7 +1850,6 @@ footer p {
   }
 
 
-  /* CONTATO */
 
   .contact-number {
     font-size: 30px;
@@ -1875,7 +1860,6 @@ footer p {
   }
 
 
-  /* FOOTER */
 
   footer {
     flex-direction: column;
@@ -1885,9 +1869,7 @@ footer p {
 }
 
 
-/* =========================================================
-   REDUÇÃO DE MOVIMENTO
-========================================================= */
+/* Reduz o movimento */
 
 @media (prefers-reduced-motion: reduce) {
 
