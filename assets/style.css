@@ -327,10 +327,10 @@ a {
 
   background: linear-gradient(
     90deg,
-    #031e45,
+    #024097,
     #00a8ff
   );
-
+  font-size: 50px;
   -webkit-background-clip: text;
   background-clip: text;
 
