@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "![alt text](assets/images/portfolio.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius82thiago/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vinicius82thiago/Portfolio/issues"
+  },
+  "homepage": "https://github.com/vinicius82thiago/Portfolio#readme",
+  "devDependencies": {
+    "vite": "^8.3.6"
+  }
+}
