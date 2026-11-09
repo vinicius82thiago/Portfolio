@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo de Thiago Vinicius Alves de Aguiar, desenvolvedor Full Stack Júnior.">
+    <title>Currículo | Thiago Vinicius Alves de Aguiar</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --blue: #17365d;
+            --gray: #555;
+            --line: #cbd5e1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 32px 16px;
+            background: #eef2f6;
+            color: #202833;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.45;
+        }
+
+        .print-controls {
+            width: min(100%, 850px);
+            margin: 0 auto 12px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .print-button {
+            padding: 10px 16px;
+            border: 0;
+            border-radius: 6px;
+            background: var(--blue);
+            color: #fff;
+            font: inherit;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .print-button:hover {
+            background: #214b7d;
+        }
+
+        main {
+            width: min(100%, 850px);
+            margin: 0 auto;
+            padding: 38px 52px;
+            background: #fff;
+            box-shadow: 0 8px 32px rgb(23 54 93 / 12%);
+        }
+
+        header {
+            margin-bottom: 18px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 5px;
+            color: var(--blue);
+            font-size: 27px;
+            line-height: 1.2;
+        }
+
+        .role {
+            margin: 0 0 8px;
+            font-size: 17px;
+        }
+
+        .contact {
+            margin: 0;
+        }
+
+        a {
+            color: var(--blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 16px;
+        }
+
+        h2 {
+            margin: 0 0 7px;
+            padding-bottom: 3px;
+            border-bottom: 1px solid var(--blue);
+            color: var(--blue);
+            font-size: 17px;
+        }
+
+        p {
+            margin: 0 0 7px;
+        }
+
+        .skills p {
+            margin-bottom: 5px;
+        }
+
+        .education-item {
+            margin-bottom: 8px;
+        }
+
+        .experience-item {
+            margin-bottom: 7px;
+            break-inside: avoid;
+        }
+
+        .experience-role {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .date {
+            flex-shrink: 0;
+            color: var(--gray);
+            font-size: 12px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 0;
+                font-size: 13px;
+            }
+
+            main {
+                padding: 28px 20px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            .experience-role {
+                display: block;
+            }
+
+            .date {
+                display: block;
+            }
+        }
+
+        @media print {
+            @page {
+                size: A4;
+                margin: 1.35cm 1.6cm;
+            }
+
+            .print-controls {
+                display: none;
+            }
+
+            body {
+                padding: 0;
+                background: #fff;
+                font-size: 10pt;
+            }
+
+            main {
+                width: auto;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+            }
+
+            a {
+                color: inherit;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="print-controls">
+        <button class="print-button" type="button" onclick="window.print()">
+            Imprimir currículo
+        </button>
+    </div>
+    <main>
+        <header>
+            <h1>THIAGO VINICIUS ALVES DE AGUIAR</h1>
+            <p class="role">Desenvolvedor Full Stack Júnior</p>
+            <p class="contact">
+                Guarulhos -- SP | (11) 98151-3204 | (11) 98439-4340<br>
+                <a href="mailto:thiagovinicius.aguiar@outlook.com">thiagovinicius.aguiar@outlook.com</a><br>
+                <a href="https://thiagoaguiar.vercel.app">Portfólio</a> |
+                <a href="https://github.com/vinicius82thiago">GitHub</a>
+            </p>
+        </header>
+
+        <section>
+            <h2>OBJETIVO PROFISSIONAL</h2>
+            <p>
+                Desenvolvedor Full Stack Júnior, com foco no desenvolvimento de aplicações web,
+                interfaces responsivas, integração de APIs e gerenciamento de bancos de dados.
+                Interesse em contribuir com equipes de desenvolvimento, aplicando conhecimentos em
+                tecnologias modernas e experiência consolidada em Tecnologia da Informação.
+            </p>
+        </section>
+
+        <section>
+            <h2>RESUMO PROFISSIONAL</h2>
+            <p>
+                Profissional de Tecnologia da Informação com experiência desde 2007 em infraestrutura,
+                administração de redes, suporte técnico especializado e ambientes corporativos.
+            </p>
+            <p>
+                Atualmente em formação em Desenvolvimento Full Stack pela B7Web, com conhecimentos em
+                HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Node.js, Tailwind CSS, PostgreSQL e SQL.
+            </p>
+            <p>
+                Experiência em resolução de problemas complexos, análise técnica, documentação, segurança
+                da informação e administração de ambientes tecnológicos. Perfil analítico, organizado e
+                orientado à solução de problemas.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>CONHECIMENTOS TÉCNICOS</h2>
+            <p><strong>Desenvolvimento Web:</strong> HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Node.js, Tailwind CSS, Shadcn UI e TanStack Query.</p>
+            <p><strong>Banco de Dados:</strong> SQL, PostgreSQL, SQL Server e DBeaver.</p>
+            <p><strong>Ferramentas e Tecnologias:</strong> Docker, APIs, APIs REST, APIs de LLMs, MCP, Inteligência Artificial aplicada ao desenvolvimento, Engenharia de Prompts e Orientação a Objetos.</p>
+            <p><strong>Infraestrutura e Redes:</strong> Windows Server, Active Directory, GPO, DNS, DHCP, VPN, TCP/IP, VLAN, roteadores, switches e segurança da informação.</p>
+        </section>
+
+        <section>
+            <h2>FORMAÇÃO ACADÊMICA</h2>
+            <p class="education-item"><strong>Desenvolvimento Full Stack -- Cursando</strong><br>B7Web</p>
+            <p class="education-item"><strong>Pós-graduação em Gestão e Segurança da Informação -- 2020</strong><br>FMU</p>
+            <p class="education-item"><strong>Graduação em Redes de Computadores -- 2008</strong><br>Faculdades Integradas Torricelli Anhanguera</p>
+        </section>
+
+        <section>
+            <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+            <p class="experience-item"><strong>Green By Missako</strong><br><span class="experience-role">Administração de Infraestrutura de Redes e Suporte <span class="date">2025 -- Atual</span></span></p>
+            <p class="experience-item"><strong>PW Usinagem</strong><br><span class="experience-role">Analista de Suporte Sênior -- Atuação em Administração de Redes <span class="date">07/2023 -- 10/2024</span></span></p>
+            <p class="experience-item"><strong>Stefanini S.A. -- CPTM</strong><br><span class="experience-role">Analista de Suporte II <span class="date">01/2022 -- 07/2023</span></span></p>
+            <p class="experience-item"><strong>IT2B LTDA -- CPTM</strong><br><span class="experience-role">Analista de Suporte II <span class="date">07/2020 -- 01/2022</span></span></p>
+            <p class="experience-item"><strong>Sonda-IT / CTIS -- Prodesp (CPTM)</strong><br><span class="experience-role">Analista de Suporte Sênior <span class="date">07/2018 -- 07/2020</span></span></p>
+            <p class="experience-item"><strong>Algar -- Prodesp (CPTM)</strong><br><span class="experience-role">Analista de Suporte Sênior <span class="date">07/2014 -- 07/2018</span></span></p>
+            <p class="experience-item"><strong>Asyst + Rhealeza -- CPTM</strong><br><span class="experience-role">Analista de Suporte Sênior <span class="date">06/2012 -- 07/2014</span></span></p>
+            <p class="experience-item"><strong>GVP Consulting Services</strong><br><span class="experience-role">Analista Telecom <span class="date">02/2011 -- 12/2011</span></span></p>
+            <p class="experience-item"><strong>GVP Consulting Services -- Continental do Brasil</strong><br><span class="experience-role">Administrador de Redes <span class="date">05/2008 -- 02/2011</span></span></p>
+            <p class="experience-item"><strong>GVP Consulting Services -- Continental do Brasil / Siemens VDO</strong><br><span class="experience-role">Analista de Suporte Sênior <span class="date">08/2007 -- 05/2008</span></span></p>
+            <p class="experience-item"><strong>GVP Consulting Services -- Siemens VDO</strong><br><span class="experience-role">Analista de Suporte <span class="date">04/2007 -- 07/2007</span></span></p>
+            <p class="experience-item"><strong>GVP Consulting Services -- BASF</strong><br><span class="experience-role">Estagiário -- Execução de Projetos <span class="date">01/2007 -- 04/2007</span></span></p>
+        </section>
+
+        <section>
+            <h2>CURSOS COMPLEMENTARES</h2>
+            <p>
+                <strong>Desenvolvimento Full Stack -- B7Web (Cursando)</strong><br>
+                HTML, CSS, JavaScript, Tailwind CSS, TypeScript, React, Next.js, Node.js, SQL,
+                Laravel 12, Orientação a Objetos, TanStack Query, Shadcn UI, APIs, IA para Programadores,
+                Engenharia de Prompts, APIs de LLMs e MCP.
+            </p>
+            <p><strong>SQL Server</strong> -- Udemy</p>
+            <p><strong>Inglês Avançado (Cursando)</strong> -- Wizard</p>
+            <p><strong>Microsoft Certified Solutions Associate (MCSA) -- 2019</strong><br>KA Solution</p>
+            <p><strong>CCNA Exploration 4.0 -- 2012</strong><br>Veris IBTA</p>
+            <p><strong>Segurança em Redes de Computadores</strong><br>Technet</p>
+        </section>
+    </main>
+</body>
+</html>
