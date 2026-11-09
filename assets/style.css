@@ -1895,4 +1895,175 @@ footer p {
 
     animation-iteration-count: 1 !important;
   }
+
+}
+
+
+/* ========================================
+   EXPERIÊNCIA COMO DIFERENCIAL
+======================================== */
+
+.experience {
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.experience-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.experience-header {
+    max-width: 750px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.experience-label {
+    display: inline-block;
+    color: #38bdf8;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.experience-header h2 {
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.experience-header h2 span {
+    color: #1677ff;
+}
+
+.experience-header p {
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* GRID */
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    width: 100%;
+}
+
+/* CARDS */
+
+.experience-card {
+    background: rgba(13, 21, 33, 0.9);
+    border: 1px solid #1a2a3d;
+    border-radius: 12px;
+    padding: 30px 25px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    border-color: #1677ff;
+    box-shadow: 0 12px 30px rgba(22, 119, 255, 0.12);
+}
+
+.experience-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(22, 119, 255, 0.12);
+    border-radius: 12px;
+    margin-bottom: 22px;
+}
+
+.experience-icon i {
+    font-size: 25px;
+    color: #38bdf8;
+}
+
+.experience-card h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.experience-card p {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* DESTAQUE */
+
+.experience-highlight {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 35px;
+    padding: 30px;
+    background: rgba(22, 119, 255, 0.06);
+    border: 1px solid #1a2a3d;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.highlight-icon {
+    min-width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(22, 119, 255, 0.12);
+    border-radius: 12px;
+}
+
+.highlight-icon i {
+    font-size: 24px;
+    color: #38bdf8;
+}
+
+.experience-highlight h3 {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.experience-highlight p {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .experience-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .experience {
+        padding: 60px 20px;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-card {
+        padding: 25px 22px;
+    }
+
+    .experience-highlight {
+        flex-direction: column;
+        padding: 23px;
+    }
 }
